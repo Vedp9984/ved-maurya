@@ -32,21 +32,6 @@ export default function EducationSection() {
   return (
     <section id="education" className="section">
       <div className="max-w-4xl mx-auto">
-        {/* Profile Image at Top Left */}
-        <motion.div
-          className="mb-12 flex justify-start"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
-          <div className="w-32 h-32 md:w-40 md:h-40 rounded-lg bg-dark-card border-2 border-dashed border-gray-600 flex items-center justify-center flex-shrink-0">
-            <p className="text-gray-400 text-center px-4 text-xs">
-              📷<br/>
-              <span className="text-gray-500 block mt-2">Add profile.jpg</span>
-            </p>
-          </div>
-        </motion.div>
-
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
