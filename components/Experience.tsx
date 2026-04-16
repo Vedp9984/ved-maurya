@@ -5,28 +5,16 @@ import { Calendar } from 'lucide-react'
 
 const experiences = [
   {
-    role: 'Software Engineer Intern @ Virtual Labs, IIT Bombay',
-    period: 'Aug 2024 - Sep 2025 (1 yr 2 mos)',
-    description: 'Contributed to Virtual Labs, a Ministry of Education initiative, developing interactive wireless communication experiments. Content hosted for free access by 100+ institutions nationwide.',
-    highlights: ['Virtual Learning', 'Web Development', 'Interactive Labs', 'EdTech'],
-  },
-  {
-    role: 'Amazon ML Summer School',
-    period: 'Aug 2025 (Selected - Top 3.7%)',
-    description: 'Selected in top 3.7% (3,000 out of 80,000+) applicants through rigorous ML assessment by Amazon Scientists. Intensive program for ML education and career development.',
-    highlights: ['Machine Learning', 'Amazon ML', 'Top Tier Selection', 'Leadership'],
-  },
-  {
     role: 'Teaching Assistant @ IIIT Hyderabad',
     period: 'Jan 2026 - Present (4 mos)',
     description: 'Teaching Assistant for Internals of Application Servers (CS3.404) course. Supporting classroom instruction and student learning in advanced systems programming.',
     highlights: ['Systems Programming', 'Teaching', 'Application Servers', 'Mentoring'],
   },
   {
-    role: 'Undergraduate Researcher @ DSAC Lab, IIIT-H',
-    period: 'Apr 2025 - Present (1 yr 1 mo)',
-    description: 'Developing crop disease diagnostic systems and curating agricultural datasets. Creating annotation pipelines and quality assurance frameworks for production ML models.',
-    highlights: ['Agriculture AI', 'Data Curation', 'ML Systems', 'Research'],
+    role: 'Research Intern @ AI Institute of South Carolina',
+    period: 'Dec 2025 - Present (5 mos)',
+    description: 'Conducting research with IRG group on advanced AI systems and applications. Remote position enabling collaboration across international research teams.',
+    highlights: ['AI Research', 'Remote Collaboration', 'Innovation', 'Advanced Systems'],
   },
   {
     role: 'Mentee & Project Intern @ Salesforce',
@@ -35,10 +23,34 @@ const experiences = [
     highlights: ['Full-Stack Development', 'Web Applications', 'Agile', 'Project Management'],
   },
   {
-    role: 'Research Intern @ AI Institute of South Carolina',
-    period: 'Dec 2025 - Present (5 mos)',
-    description: 'Conducting research with IRG group on advanced AI systems and applications. Remote position enabling collaboration across international research teams.',
-    highlights: ['AI Research', 'Remote Collaboration', 'Innovation', 'Advanced Systems'],
+    role: 'Research Intern @ IIT Bombay',
+    period: 'May 2025 - Jun 2025 (2 mos)',
+    description: 'Developed a data gathering and annotation pipeline to support supervised ML models, improving dataset quality and coverage. Applied machine learning techniques to address real-world annotation challenges under the guidance of Prof. Ganesh Ramakrishnan.',
+    highlights: ['Data Pipelines', 'ML Systems', 'Annotation Tools', 'Deep Learning'],
+  },
+  {
+    role: 'Undergraduate Researcher @ DSAC Lab, IIIT-H',
+    period: 'Apr 2025 - Present (1 yr 1 mo)',
+    description: 'Developing crop disease diagnostic systems and curating agricultural datasets. Creating annotation pipelines and quality assurance frameworks for production ML models.',
+    highlights: ['Agriculture AI', 'Data Curation', 'ML Systems', 'Research'],
+  },
+  {
+    role: 'Application Developer @ Perceptive Analytics',
+    period: 'Jan 2025 - May 2025 (5 mos)',
+    description: 'Developed Telugu mobile keyboard app supporting speech-to-text, OCR, handwriting recognition, and phonetic input for multilingual communication.',
+    highlights: ['Mobile Development', 'Android SDK', 'Multilingual', 'NLP'],
+  },
+  {
+    role: 'Amazon ML Summer School',
+    period: 'Aug 2025 (Selected - Top 3.7%)',
+    description: 'Selected in top 3.7% (3,000 out of 80,000+) applicants through rigorous ML assessment by Amazon Scientists. Intensive program for ML education and career development.',
+    highlights: ['Machine Learning', 'Amazon ML', 'Top Tier Selection', 'Leadership'],
+  },
+  {
+    role: 'Software Engineer Intern @ Virtual Labs',
+    period: 'Aug 2024 - Sep 2025 (1 yr 2 mos)',
+    description: 'Contributed to Virtual Labs, a Ministry of Education initiative, developing interactive wireless communication experiments. Content hosted for free access by 100+ institutions nationwide.',
+    highlights: ['Virtual Learning', 'Web Development', 'Interactive Labs', 'EdTech'],
   },
 ]
 
