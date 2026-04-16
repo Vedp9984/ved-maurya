@@ -9,21 +9,21 @@ const projects = [
     description: 'Built YOLOv8-based damage detection system achieving 85%+ accuracy on vehicle damage. Integrated perceptual hashing + metadata analysis for fraud detection. Implemented Grad-CAM for explainable AI visualization.',
     impact: '85%+ damage detection accuracy | Fraud detection pipeline | Production-ready explainability framework',
     techStack: ['YOLOv8', 'PyTorch', 'OpenCV', 'Grad-CAM', 'Streamlit'],
-    githubLink: 'https://github.com/vedmaurya',
+    githubLink: 'https://github.com/Vedp9984/',
   },
   {
     title: 'Cancer Risk Stratification System',
     description: 'Developed BioBERT + CheXpert + XGBoost ensemble for cancer risk scoring. Implemented OCR pipeline for clinical text extraction. Integrated SHAP explainability for interpretable risk scores (0-100).',
     impact: 'Interpretable risk scores | SHAP-based explainability | FastAPI production pipeline | 10,000+ patient records',
     techStack: ['BioBERT', 'FastAPI', 'PostgreSQL', 'SHAP', 'XGBoost'],
-    githubLink: 'https://github.com/vedmaurya',
+    githubLink: 'https://github.com/Vedp9984/',
   },
   {
     title: 'Crop Darpan - Disease Diagnostic System',
     description: 'Created rule-based diagnostic system for crop diseases from 5000+ agricultural dataset. Implemented interactive web interface for farmers. Generated comprehensive crop health reports with recommendations.',
     impact: '5000+ curated crop dataset | 500+ disease patterns | Real-world deployment at IIIT-H',
     techStack: ['Python', 'Rule-Based ML', 'Flask', 'PostgreSQL', 'Streamlit'],
-    githubLink: 'https://github.com/vedmaurya/crop-darpan',
+    githubLink: 'https://github.com/Vedp9984/',
   },
 ]
 
@@ -64,7 +64,7 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
         >
           <a
-            href="https://github.com/vedmaurya"
+            href="https://github.com/Vedp9984/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary"

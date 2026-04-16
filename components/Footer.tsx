@@ -7,9 +7,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/vedmaurya', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/vedmaurya', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:vedmaurya@iiit.ac.in', label: 'Email' },
+    { icon: Github, href: 'https://github.com/Vedp9984/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/ved-maurya/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:mvedp998@gmail.com', label: 'Email' },
   ]
 
   return (
@@ -65,10 +65,10 @@ export default function Footer() {
               <a href="/resume.pdf" className="text-gray-400 hover:text-blue-400 smooth-transition">
                 Resume
               </a>
-              <a href="https://github.com/vedmaurya" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 smooth-transition block">
+              <a href="https://github.com/Vedp9984/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 smooth-transition block">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/vedmaurya" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 smooth-transition block">
+              <a href="https://www.linkedin.com/in/ved-maurya/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 smooth-transition block">
                 LinkedIn
               </a>
             </div>

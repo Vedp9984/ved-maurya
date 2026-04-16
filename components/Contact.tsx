@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, Github, Linkedin, ExternalLink } from 'lucide-react'
+import { Mail, Github, Linkedin } from 'lucide-react'
 import { useState } from 'react'
 
 export default function ContactSection() {
@@ -171,10 +171,10 @@ export default function ContactSection() {
           <p className="text-gray-400 text-sm text-center mt-4">
             Or email me directly at{' '}
             <a
-              href="mailto:vedmaurya@iiit.ac.in"
+              href="mailto:mvedp998@gmail.com"
               className="text-blue-400 hover:text-blue-300 smooth-transition font-semibold"
             >
-              vedmaurya@iiit.ac.in
+              mvedp998@gmail.com
             </a>
           </p>
         </motion.div>
