@@ -51,7 +51,7 @@ export default function HeroSection() {
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-lg bg-dark-card border-2 border-gray-600 flex items-center justify-center flex-shrink-0 overflow-hidden">
             <Image 
               src="/profile.jpg" 
-           
+              alt="Ved Prakash Maurya"
               width={192}
               height={192}
               className="w-full h-full object-cover"
