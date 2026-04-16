@@ -21,7 +21,7 @@ Edit these files with YOUR information:
 - `components/Projects.tsx` - Your projects
 - `components/Experience.tsx` - Your work history
 - `components/Skills.tsx` - Your skills
-- `components/Contact.tsx` - Your email
+- `components/Contact.tsx` - Your email (mvedp998@gmail.com)
 
 ### 4️⃣ Deploy
 Choose one option:
@@ -63,7 +63,7 @@ ved-maurya/
 │   ├── Experience.tsx     ← Work experience timeline
 │   ├── Skills.tsx         ← Skills & tech stack
 │   ├── Achievements.tsx   ← Awards & achievements
-│   ├── Blog.tsx           ← Blog section
+│   ├── Blog.tsx           ← Blog section (optional - removed from site) (optional)
 │   ├── Contact.tsx        ← Contact form
 │   └── Footer.tsx         ← Footer
 │
