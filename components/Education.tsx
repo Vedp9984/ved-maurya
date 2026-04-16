@@ -106,7 +106,7 @@ export default function EducationSection() {
                 </p>
 
                 <div className="flex flex-wrap gap-2">
-                  {edu.highlights.map((highlight) => (
+                  {edu.highlights && edu.highlights.map((highlight) => (
                     <motion.span
                       key={highlight}
                       className="px-3 py-1 text-xs font-mono bg-blue-500/10 border border-blue-500/30 text-blue-300 rounded-full"
