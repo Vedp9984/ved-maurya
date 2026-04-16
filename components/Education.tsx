@@ -110,7 +110,7 @@ export default function EducationSection() {
                 {/* Description */}
                 {edu.description && (
                   <p className="text-gray-300 mb-4 leading-relaxed">
-                    {edu.description}
+       -             {edu.description}
                   </p>
                 )}
 
