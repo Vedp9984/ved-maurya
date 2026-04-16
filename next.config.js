@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export', // Enable static export for GitHub Pages
-  basePath: '',
+  basePath: '/ved-maurya', // Set to your repository name
   reactStrictMode: true,
   images: {
     unoptimized: true, // Required for static export
