@@ -31,29 +31,32 @@ export default function ContactSection() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setIsSubmitting(true)
+    
+    // Get form data
     const formData = new FormData(e.currentTarget)
-
+    const name = formData.get('name')
+    const email = formData.get('email')
+    const subject = formData.get('subject')
+    const message = formData.get('message')
+    
+    // Create mailto link as fallback
+    const mailtoLink = `mailto:mvedp998@gmail.com?subject=${encodeURIComponent(subject as string)}&body=${encodeURIComponent(
+      `From: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`
+    
+    setIsSubmitting(true)
     try {
-      const response = await fetch('https://formspree.io/f/xyzaaqvk', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      })
-
-      if (response.ok) {
-        setSubmitMessage('Message sent successfully! 🎉')
+      // Try to send via email
+      setSubmitMessage('Opening email client...')
+      window.location.href = mailtoLink
+      
+      setTimeout(() => {
+        setSubmitMessage('Message window opened! Send the email to complete.')
         e.currentTarget.reset()
-        setTimeout(() => setSubmitMessage(''), 3000)
-      } else {
-        setSubmitMessage('Error sending message. Please try again.')
-        setTimeout(() => setSubmitMessage(''), 3000)
-      }
+        setTimeout(() => setSubmitMessage(''), 5000)
+      }, 500)
     } catch (error) {
-      setSubmitMessage('Error sending message. Please email directly.')
-      setTimeout(() => setSubmitMessage(''), 3000)
+      setSubmitMessage('Opening email client...')
     } finally {
       setIsSubmitting(false)
     }
