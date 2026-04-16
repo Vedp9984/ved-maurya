@@ -6,27 +6,25 @@ import { Calendar } from 'lucide-react'
 const educations = [
   {
     school: 'IIIT Hyderabad',
-    degree: 'B.Tech Honors in Computer Science and Engineering',
+    degree: 'B.Tech Honors',
     period: '2023 - 2027',
     location: 'Hyderabad, Telangana, India',
     description: 'Pursuing B.Tech Honors degree focusing on ML, systems, and advanced computer science topics.',
     highlights: ['Data Science', 'Machine Learning', 'Systems Design', 'Algorithms'],
   },
   {
-    school: 'Jwahar Navodaya Vidyalaya',
-    degree: 'Senior Secondary Education',
+    school: 'Jawahar Navodaya Vidyalaya',
+    degree: 'Schooling',
     period: '2016 - 2021',
-    location: 'Balarampur, Uttar Pradesh, India',
-    description: 'Completed senior secondary education with focus on science and mathematics.',
-    highlights: ['Science', 'Mathematics', 'English', 'Leadership'],
+    location: 'Balrampur, Uttar Pradesh, India',
+  
   },
   {
     school: 'Ex-Navodaya Foundation',
-    degree: 'Professional Development',
+    degree: 'Schooling',
     period: '2021 - 2023',
-    location: 'India',
-    description: 'Participated in professional development programs and career guidance initiatives.',
-    highlights: ['Career Development', 'Mentorship', 'Networking', 'Skills Training'],
+    location: 'Prayagaraj, Uttar Pradesh, India',
+
   },
 ]
 
@@ -34,6 +32,21 @@ export default function EducationSection() {
   return (
     <section id="education" className="section">
       <div className="max-w-4xl mx-auto">
+        {/* Profile Image at Top Left */}
+        <motion.div
+          className="mb-12 flex justify-start"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
+          <div className="w-32 h-32 md:w-40 md:h-40 rounded-lg bg-dark-card border-2 border-dashed border-gray-600 flex items-center justify-center flex-shrink-0">
+            <p className="text-gray-400 text-center px-4 text-xs">
+              📷<br/>
+              <span className="text-gray-500 block mt-2">Add profile.jpg</span>
+            </p>
+          </div>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -107,26 +120,6 @@ export default function EducationSection() {
             </motion.div>
           ))}
         </div>
-
-        {/* Profile Image Placeholder */}
-        <motion.div
-          className="mt-12 p-8 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/20 text-center"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
-          <div className="flex justify-center mb-4">
-            <div className="w-32 h-32 md:w-40 md:h-40 rounded-lg bg-dark-card border-2 border-dashed border-gray-600 flex items-center justify-center">
-              <p className="text-gray-400 text-center px-4">
-                📷 Add your profile image here<br/>
-                <span className="text-xs text-gray-500 mt-2 block">Place image in: public/profile.jpg</span>
-              </p>
-            </div>
-          </div>
-          <p className="text-gray-300 mt-6">
-            <span className="text-blue-400 font-semibold">Profile Photo:</span> Add a professional headshot to personalize your portfolio
-          </p>
-        </motion.div>
       </div>
     </section>
   )
